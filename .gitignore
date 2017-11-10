@@ -3,3 +3,6 @@ bower_components/
 .git/
 .idea/
 *.map
+uwsgi.sock
+django_test2.pid
+uwsgi.log
