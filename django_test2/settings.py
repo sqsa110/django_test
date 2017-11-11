@@ -37,12 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_test2'
+#    'django_test2'
 ]
 
 MIDDLEWARE = [
-    'middle.test.M1',
-    'middle.test.M2',
+    'django_test2.middle.test.M1',
+    'django_test2.middle.test.M2',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
